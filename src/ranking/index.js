@@ -114,38 +114,3 @@ const init = async () => {
 
 init()
 
-// console.log()
-// getAllArticalDetail()
-
-// console.log(Scheduler)
-// const XLSX = require('xlsx')
-
-// const workbook = XLSX.readFile('./star.xlsx')
-
-
-
-
-// // console.log(XLSX.utils.sheet_to_json(workbook))
-// // console.log(XLSX.utils.sheet_to_json(workbook.Sheets['前端']))
-// console.log(Object.keys(workbook.Sheets))
-
-// // const ws_data = [
-// //   ['id','name','role','path','state'],
-// //   [1,'首页','user','/',1],
-// //   [2,'全部文章','user','/article',1],
-// // ]
-
-// const ws = XLSX.utils.json_to_sheet([
-//   {
-//     '用户名': '前端胖头鱼',
-//     '浏览量': 10000
-//   }
-// ])
-
-// let wb = XLSX.utils.book_new('前端')
-// XLSX.utils.book_append_sheet(wb, ws, 'SheetJS')
-// XLSX.writeFile(wb, 'out.xlsx')
-
-
-
-
